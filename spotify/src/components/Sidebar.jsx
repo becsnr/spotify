@@ -1,7 +1,3 @@
-// BARRA LATERAL
-// logo
-// menu (home, search, biblioteca)
-// links de playlists
 import styles from './Sidebar.module.css'
 
 import { useState } from 'react'
@@ -12,7 +8,7 @@ function Sidebar() {
     const [hover, setHover] = useState(false);
 
     return (
-        <sidebar>
+        <div className={styles.sidebar}>
             <div className={styles.biblioteca} 
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}>
@@ -21,7 +17,7 @@ function Sidebar() {
             <div className={styles.add}>
                 <FaPlus />
             </div>
-        </sidebar>
+        </div>
     )
 }
 

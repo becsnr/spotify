@@ -6,10 +6,19 @@ import Navbar from "../components/Navbar"
 function Layout() {
     return (
         <div className={styles.layout}>
-            <Sidebar />
+            <Navbar />
+            
 
             <div className={styles.container}>
-                <Navbar />
+                <div className={styles.sidebar}>
+                    <Sidebar />
+                </div>
+            
+
+                <div className={styles.outlet}>
+
+            </div>
+
             </div>
         </div>
     )

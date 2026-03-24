@@ -1,0 +1,12 @@
+nav {
+    display: flex;
+    gap: 10px;
+    width: 100vw;
+    height: 40px;
+    font-size: 1.3em;
+    background-color: brown;
+}
+
+nav div {
+    background-color: rgb(55, 72, 66);
+}
