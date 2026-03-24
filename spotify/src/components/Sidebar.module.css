@@ -1,0 +1,44 @@
+sidebar {
+    background-color: #121212;
+    height: 100vh;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.biblioteca {
+    margin-bottom: 10px;
+    background-color: #121212;
+    cursor: pointer;
+}
+
+.biblioteca svg {
+    background-color: #121212;
+    font-size: 1.4em;
+}
+
+.add {
+    border-radius: 50%;
+    font-size: 1em;
+    padding: 10px;
+    background-color: #29292983;
+    cursor: pointer;
+}
+
+.add svg {
+    background-color: #29292913;
+}
+
+.add:hover {
+    background-color: #45454553;
+}
+
+svg {
+    background-color: #292929;
+    fill: #bcb2b2;
+}
+
+svg:hover {
+    cursor: pointer;
+    fill: #faf7f7f3;
+}
