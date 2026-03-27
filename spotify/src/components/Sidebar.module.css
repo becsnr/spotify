@@ -35,12 +35,12 @@
     background-color: #45454553;
 }
 
-svg {
+.sidebar svg {
     background-color: #292929;
     fill: #bcb2b2;
 }
 
-svg:hover {
+.sidebar svg:hover {
     cursor: pointer;
     fill: #faf7f7f3;
 }
