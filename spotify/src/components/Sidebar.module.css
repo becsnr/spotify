@@ -2,6 +2,7 @@
     background-color: #121212;
     height: 100%;
     padding: 10px;
+    padding-top: 40px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -21,6 +22,8 @@
 
 .add {
     border-radius: 50%;
+    width: 30px;
+    height: 30px;
     font-size: 1em;
     padding: 10px;
     background-color: #29292983;
@@ -28,7 +31,8 @@
 }
 
 .add svg {
-    background-color: #29292913;
+    background-color: #222222;
+    padding: 8px;
 }
 
 .add:hover {
@@ -36,7 +40,6 @@
 }
 
 .sidebar svg {
-    background-color: #292929;
     fill: #bcb2b2;
 }
 
