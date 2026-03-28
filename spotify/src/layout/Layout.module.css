@@ -1,20 +1,24 @@
 .layout {
     display: flex;
     flex-direction: column;
+    height: 100dvh;
     height: 100vh;
 }
 
 .container {
     display: flex;
     flex: 1;
+    min-height: 0;
 }
 
 .sidebar {
     width: 80px;
+    height: 100%;
 }
 
 .outlet {
     background-color: #4f4e4d;
     flex: 1;
     overflow-y: auto;
+    min-height: 0;
 }

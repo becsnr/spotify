@@ -1,7 +1,3 @@
-// BARRA DO TOPO
-// botão voltar/avançar
-// campo de busca
-// perfil
 import styles from './Navbar.module.css'
 
 import { FaSpotify, FaHome, FaSearch, FaBell } from "react-icons/fa"
