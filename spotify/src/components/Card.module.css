@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    gap: 5px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.cardArtista {
+    background-color: #8080803f;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* .image {
+    height: 150px;
+    width: 150px;
+    background-color: #ffe4c44b;
+    
+} */
+
+.cardArtista img {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}

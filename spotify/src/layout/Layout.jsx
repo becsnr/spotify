@@ -3,6 +3,8 @@ import styles from './Layout.module.css'
 import Sidebar from "../components/Sidebar"
 import Navbar from "../components/Navbar"
 
+import { Outlet } from "react-router-dom"
+
 function Layout() {
     return (
         <div className={styles.layout}>
@@ -16,8 +18,8 @@ function Layout() {
             
 
                 <div className={styles.outlet}>
-
-            </div>
+                    <Outlet />
+                </div>
 
             </div>
         </div>

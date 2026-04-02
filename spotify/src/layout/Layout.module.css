@@ -17,8 +17,10 @@
 }
 
 .outlet {
-    background-color: #4f4e4d;
+    background-color: #121212;
     flex: 1;
     overflow-y: auto;
     min-height: 0;
+    margin-left: 10px;
+    border-radius: 10px;
 }
