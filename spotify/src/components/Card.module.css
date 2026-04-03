@@ -1,26 +1,36 @@
 .container {
     display: flex;
     gap: 5px;
+    width: 100%;
     overflow-y: auto;
     scrollbar-width: none;
 }
 
-.cardArtista {
-    background-color: #8080803f;
+.card {
     height: 200px;
+    width: 200px;
     padding: 10px;
     text-align: center;
+    border-radius: 10px;
 }
 
-/* .image {
+.card:hover {
+    background-color: #8080803f;
+}
+
+.card img {
     height: 150px;
     width: 150px;
-    background-color: #ffe4c44b;
-    
-} */
-
-.cardArtista img {
-    height: 170px;
-    width: 170px;
     border-radius: 50%;
+}
+
+.card p {
+    margin-top: 0;
+    word-wrap: break-word;
+}
+
+.cardCapa img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
 }
