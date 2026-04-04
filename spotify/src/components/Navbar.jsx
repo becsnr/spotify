@@ -15,7 +15,7 @@ function Navbar() {
                 </div>
                 <div className={styles.search}>
                     <FaSearch />
-                    <input type="text" placeholder='O que você quer escutar?' />
+                    <input type="text" placeholder='O que você quer ouvir?' />
                 </div>
             </div>
 

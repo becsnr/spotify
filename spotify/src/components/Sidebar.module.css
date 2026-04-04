@@ -1,17 +1,18 @@
 .sidebar {
     background-color: #121212;
     height: 100%;
-    padding: 10px;
-    padding-top: 40px;
+    padding: 15px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
     text-align: center;
 }
 
 .biblioteca {
     background-color: #121212;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
     cursor: pointer;
 }
 
