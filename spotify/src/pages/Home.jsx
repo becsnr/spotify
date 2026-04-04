@@ -11,6 +11,8 @@ function Home() {
             
             <h1>Álbuns</h1>
             <Card item={albums} customClass="cardCapa" />
+
+            <h1>Playlists</h1>
         </>
         
     )
