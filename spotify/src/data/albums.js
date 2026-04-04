@@ -19,9 +19,9 @@ export const albums = [
     },
     {
         id: 4,
-        name: "Only",
-        imgCard: "src/assets/albuns/only-album.jpg",
-        artista: "Leehi"
+        name: "Post Tenebras Lux",
+        imgCard: "src/assets/albuns/kami-album.jpg",
+        artista: "Kami Kam"
     },
     {
         id: 5,
@@ -31,8 +31,8 @@ export const albums = [
     },
     {
         id: 6,
-        name: "Layover",
-        imgCard: "src/assets/albuns/layover-album.jpg",
-        artista: "V"
+        name: "Only",
+        imgCard: "src/assets/albuns/only-album.jpg",
+        artista: "Leehi"
     }
 ]

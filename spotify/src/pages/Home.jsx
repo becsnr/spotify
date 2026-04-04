@@ -2,6 +2,7 @@ import Card from "../components/Card"
 
 import { artistas } from "../data/artistas"
 import { albums } from "../data/albums"
+import { playlists } from "../data/playlists"
 
 function Home() {
     return (
@@ -13,6 +14,7 @@ function Home() {
             <Card item={albums} customClass="cardCapa" />
 
             <h1>Playlists</h1>
+            <Card item={playlists} customClass="cardCapa" />
         </>
         
     )
