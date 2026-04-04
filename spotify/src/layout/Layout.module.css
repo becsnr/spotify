@@ -1,8 +1,8 @@
 .layout {
     display: flex;
     flex-direction: column;
-    height: 100dvh;
     height: 100vh;
+    overflow: hidden;
 }
 
 .container {
@@ -13,7 +13,6 @@
 
 .sidebar {
     width: 80px;
-    height: 100%;
 }
 
 .outlet {
