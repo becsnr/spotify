@@ -36,3 +36,36 @@ export const playlists = [
         // mscs: [] add os ids das msc
     }
 ]
+
+export const thisIs = [
+    {
+        id: 1,
+        name: "This is BTS",
+        imgCard: "src/assets/playlist-capa/is-bts.png"
+    },
+    {
+        id: 2,
+        name: "This is 2metro",
+        imgCard: "src/assets/playlist-capa/is-2metro.png"
+    },
+    {
+        id: 3,
+        name: "This is Justin Bieber",
+        imgCard: "src/assets/playlist-capa/is-jb.png"
+    },
+    {
+        id: 4,
+        name: "This is Nesk Only",
+        imgCard: "src/assets/playlist-capa/is-nesk.png"
+    },
+    {
+        id: 5,
+        name: "This is Shawn Mendes",
+        imgCard: "src/assets/playlist-capa/is-shawn.png"
+    },
+    {
+        id: 6,
+        name: "This is Jungkook",
+        imgCard: "src/assets/playlist-capa/is-jk.png"
+    }
+]
