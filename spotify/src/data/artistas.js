@@ -1,5 +1,5 @@
 import btsCard from "../assets/artistas/bts-card.jpg"
-import btsPerfil from "../assets/artistas/bts-perfil.jpg"
+import btsPerfil from "../assets/artistas/bts-perfil2.png"
 
 import taylorCard from "../assets/artistas/taylor-card.jpg"
 import taylorPerfil from "../assets/artistas/taylor-perfil.jpg"

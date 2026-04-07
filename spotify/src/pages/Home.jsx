@@ -6,9 +6,9 @@ import { playlists, thisIs } from "../data/playlists"
 
 function Home() {
     return (
-        <>
+        <div style={{padding: '20px'}}>
             <h1>Artistas Populares</h1>
-            <Card item={artistas} />
+            <Card item={artistas} page="artista" />
             
             <h1>Álbuns</h1>
             <Card item={albums} customClass="cardCapa" />
@@ -18,7 +18,7 @@ function Home() {
 
             <h1>O melhor de cada artista</h1>
             <Card item={thisIs} customClass="cardCapa" />
-        </>
+        </div>
         
     )
 }
