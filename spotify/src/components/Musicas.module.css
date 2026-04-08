@@ -1,0 +1,14 @@
+.mscs h2 {
+    font-size: 1em;
+}
+
+
+
+/* CUSTOMCLASS */
+.artista p {
+    display: none;
+}
+
+.playlist p {
+    display: block;
+}
