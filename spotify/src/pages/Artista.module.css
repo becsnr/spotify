@@ -2,6 +2,17 @@
     position: relative;
     height: 250px;
     overflow: hidden;
+    position: relative;
+}
+
+.header::after { /* degradê embaixo */
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+
+    background: linear-gradient(transparent, #000000cc);
 }
 
 .header img {
@@ -13,6 +24,85 @@
     position: sticky;
     top: 0;
     transition: opacity .3s;
+}
+
+.header h1 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+
+    font-size: 4em;
+    text-shadow: 0 4px 20px black;
+}
+
+.header p {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    z-index: 2;
+
+    text-shadow: 0 4px 20px black;
+}
+
+.btns {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
+.btns svg {
+    font-size: 1.3em;
+    font-weight: 100;
+}
+
+.play {
+    background-color: #3AE176;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.play svg {
+    fill: black;
+    padding-left: 5px;
+    padding-top: 4px;
+}
+
+.play:hover, .play svg:hover {
+    background-color: #40f783;
+}
+
+.random {
+    height: 30px;
+    margin-top: 10px;
+}
+
+.random svg {
+    fill: #8b8686;
+    padding-top: 3px;
+    cursor: pointer;
+}
+
+.random svg:hover {
+    fill: #d6cdcd;
+}
+
+.follow {
+    border: 1px solid #ffffffa5;
+    border-radius: 50px;
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.follow:hover {
+    background-color: #8b86861b;
 }
 
 /* tela média */
@@ -34,5 +124,9 @@
 
     .header img {
         object-position: center 25%;
+    }
+
+    .header h1 {
+        font-size: 6em;
     }
 }

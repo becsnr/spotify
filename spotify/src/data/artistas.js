@@ -21,38 +21,44 @@ export const artistas = [
         id: 1,
         name: "BTS",
         imgCard: btsCard,
-        imgPerfil: btsPerfil
+        imgPerfil: btsPerfil,
+        ouvintes: "42.836.206"
     },
     {
         id: 2,
         name: "Taylor Swift",
         imgCard: taylorCard,
-        imgPerfil: taylorPerfil
+        imgPerfil: taylorPerfil,
+        ouvintes: "102.225.683"
     },
     {
         id: 3,
         name: "Wave to Earth",
         imgCard: w2eCard,
-        imgPerfil: w2ePerfil
+        imgPerfil: w2ePerfil,
+        ouvintes: "6.755.612"
     },
     {
         id: 4,
         name: "Laufey",
         imgCard: laufeyCard,
-        imgPerfil: laufeyPerfil
+        imgPerfil: laufeyPerfil,
+        ouvintes: "23.471.115"
     },
     {
         id: 5,
         name: "Strings & Heart",
         imgCard: stringsCard,
-        imgPerfil: stringsPerfil
+        imgPerfil: stringsPerfil,
+        ouvintes: "1.380.216"
     },
     
     {
         id: 6,
         name: "NewJeans",
         imgCard: njzCard,
-        imgPerfil: njzPerfil
+        imgPerfil: njzPerfil,
+        ouvintes: "13.794.617"
     },
     
 ]

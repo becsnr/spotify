@@ -24,7 +24,7 @@ nav svg {
 }
 
 .logo:hover svg {
-    fill: green;
+    fill: #3AE176;
 }
 
 /* SEARCH */
