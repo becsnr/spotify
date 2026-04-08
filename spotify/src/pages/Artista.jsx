@@ -25,7 +25,7 @@ function Artista() {
                 <div className={styles.random}>
                     <FaRandom />
                 </div>
-                <button className={styles.follow}>seguir</button>
+                <button className={styles.follow}>Seguir</button>
             </div>
         </>
     )
