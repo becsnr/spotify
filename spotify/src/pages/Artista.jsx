@@ -11,7 +11,9 @@ import { FaPlay, FaRandom } from "react-icons/fa";
 
 function Artista() {
     const { id } = useParams();
+
     const artista = artistas.find(a => a.id == id);
+    const musicasArtista = musicas.filter(m => m.artistaId == id);
 
     return (
         <>
@@ -31,8 +33,9 @@ function Artista() {
                 <button className={styles.follow}>Seguir</button>
             </div>
 
+            <h1>Populares</h1>
             <div className={styles.musics}>
-                <Musicas item={musicas} customClass="artista" />
+                <Musicas item={musicasArtista} customClass="artista" />
             </div>
         </>
     )

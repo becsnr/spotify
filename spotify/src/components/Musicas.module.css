@@ -1,8 +1,47 @@
+.mscs {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative; /* pro play */
+}
+
 .mscs h2 {
     font-size: 1em;
 }
 
+.num {
+    width: 30px;
+    text-align: right;
+    color: #b3b3b3;
+    transition: opacity .2s;
+}
 
+.play {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    position: absolute;
+}
+
+.play svg {
+    padding-left: 20px;
+}
+
+/* HOVER */
+.mscs:hover {
+    background-color: #93929223;
+}
+
+.mscs:hover .num {
+    opacity: 0;
+}
+
+.mscs:hover .play {
+    opacity: 1;
+}
 
 /* CUSTOMCLASS */
 .artista p {
