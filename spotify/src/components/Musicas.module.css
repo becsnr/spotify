@@ -43,11 +43,24 @@
     opacity: 1;
 }
 
+/* VER MAIS / VER MENOS */
+.btn {
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+    color: #b3b3b3;
+    width: 100px;
+}
+
+.btn:hover {
+    color: white;
+}
+
 /* CUSTOMCLASS */
-.artista p {
+.listaArtista p {
     display: none;
 }
 
-.playlist p {
+.listaPlaylist p {
     display: block;
 }

@@ -35,7 +35,11 @@ function Artista() {
 
             <h1>Populares</h1>
             <div className={styles.musics}>
-                <Musicas item={musicasArtista} customClass="artista" />
+                <Musicas
+                    item={musicasArtista}
+                    customClass="listaArtista"
+                    tipo="artista" 
+                />
             </div>
         </>
     )
