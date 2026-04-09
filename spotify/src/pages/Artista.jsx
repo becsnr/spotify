@@ -33,7 +33,7 @@ function Artista() {
                 <button className={styles.follow}>Seguir</button>
             </div>
 
-            <h1>Populares</h1>
+            <h2 className={styles.titulo}>Populares</h2>
             <div className={styles.musics}>
                 <Musicas
                     item={musicasArtista}
@@ -41,6 +41,8 @@ function Artista() {
                     tipo="artista" 
                 />
             </div>
+
+            <h2 className={styles.titulo}>Discografia</h2>
         </>
     )
 }
