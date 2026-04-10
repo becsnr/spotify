@@ -478,5 +478,59 @@ export const musicas = [
         artistaId: 6,
         album: "NewJeans 2nd EP'Get Up'",
         time: "2:14"
+    },
+    {
+        id: 61,
+        name: "antes de Você",
+        cantor: "José Jr",
+        artistaId: 7,
+        album: "das coisas que carrego dentro",
+        albumId: 1,
+        time: "2:43"
+    },
+    {
+        id: 62,
+        name: "Sol inteiro",
+        cantor: "José Jr",
+        artistaId: 7,
+        album: "das coisas que carrego dentro",
+        albumId: 1,
+        time: "3:32"
+    },
+    {
+        id: 63,
+        name: "Pérola",
+        cantor: "José Jr",
+        artistaId: 7,
+        album: "das coisas que carrego dentro",
+        albumId: 1,
+        time: "4:38"
+    },
+    {
+        id: 64,
+        name: "meu Deus",
+        cantor: "José Jr",
+        artistaId: 7,
+        album: "das coisas que carrego dentro",
+        albumId: 1,
+        time: "6:00"
+    },
+    {
+        id: 65,
+        name: "tempo",
+        cantor: "José Jr",
+        artistaId: 7,
+        album: "das coisas que carrego dentro",
+        albumId: 1,
+        time: "1:51"
+    },
+    {
+        id: 66,
+        name: "pedidos e velas",
+        cantor: "José Jr",
+        artistaId: 7,
+        album: "das coisas que carrego dentro",
+        albumId: 1,
+        time: "3:40"
     }
 ]
