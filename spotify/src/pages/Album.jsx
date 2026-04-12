@@ -24,9 +24,11 @@ function Album() {
                 descricao={album.artista}
             />
 
-            {musicasAlbum.map(musica => (
-                <p key={musica.id}>{musica.name}</p>
-            ))}
+            <div className={styles.mscs}>
+                {musicasAlbum.map(musica => (
+                    <p key={musica.id}>{musica.name}</p>
+                ))}
+            </div>
         </div>
     )
 }
