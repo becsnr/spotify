@@ -51,6 +51,8 @@ function HeaderPlaylist({ imagem, titulo, subtitulo, descricao }) {
                     <FaArrowDown />
                 </div>
             </div>
+
+            <h1>TESTE</h1>
         </>
     )
 }

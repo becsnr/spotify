@@ -8,10 +8,12 @@ function Musicas( { item, customClass, tipo } ) {
 
     const musicasVisiveis = tipo === "artista" && !mostrarTudo ? item.slice(0, 5) : item
 
+    // const musicasVisiveis = Array.isArray(item) ? (tipo === "artista" && !mostrarTudo ? item.slice(0, 5) : item) : []
+
     return (
         <>
             <div className={styles.card}>
-                {musicasVisiveis.map((musica, index) => (
+                {musicasVisiveis?.map((musica, index) => (
                     <div key={musica.id} className={`${styles.mscs} ${styles[customClass]}`}>
                         <span className={styles.num}>{index + 1}</span>
                         <span className={styles.play}>
@@ -25,7 +27,7 @@ function Musicas( { item, customClass, tipo } ) {
                 ))}
 
                 {/* SE FOR ARTISTA */}
-                {tipo === "artista" & item.length > 5 && (
+                {tipo === "artista" && item.length > 5 && (
                     <button onClick={() => setMostrarTudo(!mostrarTudo)} className={styles.btn}>
                         {mostrarTudo ? "Ver menos" : "Ver mais"}
                     </button>

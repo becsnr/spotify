@@ -1,8 +1,11 @@
+
+
 import { useParams } from "react-router-dom";
 
 import { albums } from "../data/albums";
 import { musicas } from "../data/musicas";
 import HeaderPlaylist from "../components/HeaderPlaylist";
+import Musicas from "../components/Musicas";
 
 function Album() {
     const { id } = useParams();
@@ -24,11 +27,13 @@ function Album() {
                 descricao={album.artista}
             />
 
-            <div className={styles.mscs}>
+            <Musicas  />
+
+            {/* <div className={styles.mscs}>
                 {musicasAlbum.map(musica => (
                     <p key={musica.id}>{musica.name}</p>
                 ))}
-            </div>
+            </div> */}
         </div>
     )
 }
