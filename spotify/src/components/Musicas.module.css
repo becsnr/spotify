@@ -87,7 +87,7 @@
 }
 
 /* CUSTOMCLASS */
-.listaArtista p {
+.listaArtista .dados p {
     display: none;
 }
 

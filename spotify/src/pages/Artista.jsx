@@ -13,7 +13,7 @@ function Artista() {
     const { id } = useParams();
 
     const artista = artistas.find(a => a.id == id);
-    const musicasArtista = musicas.filter(m => m.artistaId == id);
+    const musicasArtista = musicas.filter(m => m.artistaId == Number(id));
 
     return (
         <>
