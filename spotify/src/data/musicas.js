@@ -517,6 +517,15 @@ export const musicas = [
     },
     {
         id: 65,
+        name: "vapor",
+        cantor: "José Jr",
+        artistaId: 7,
+        album: "das coisas que carrego dentro",
+        albumId: 1,
+        time: "4:07"
+    },
+    {
+        id: 66,
         name: "tempo",
         cantor: "José Jr",
         artistaId: 7,
@@ -525,12 +534,57 @@ export const musicas = [
         time: "1:51"
     },
     {
-        id: 66,
+        id: 67,
+        name: "dias",
+        cantor: "José Jr",
+        artistaId: 7,
+        album: "das coisas que carrego dentro",
+        albumId: 1,
+        time: "2:59"
+    },
+    {
+        id: 68,
+        name: "crescer",
+        cantor: "José Jr",
+        artistaId: 7,
+        album: "das coisas que carrego dentro",
+        albumId: 1,
+        time: "3:18"
+    },
+    {
+        id: 69,
+        name: "bem querer",
+        cantor: "José Jr",
+        artistaId: 7,
+        album: "das coisas que carrego dentro",
+        albumId: 1,
+        time: "5:54"
+    },
+    {
+        id: 70,
+        name: "pensamentos",
+        cantor: "José Jr",
+        artistaId: 7,
+        album: "das coisas que carrego dentro",
+        albumId: 1,
+        time: "3:39"
+    },
+    {
+        id: 71,
         name: "pedidos e velas",
         cantor: "José Jr",
         artistaId: 7,
         album: "das coisas que carrego dentro",
         albumId: 1,
         time: "3:40"
+    },
+    {
+        id: 72,
+        name: "gradecer (hoje eu só quero)",
+        cantor: "José Jr",
+        artistaId: 7,
+        album: "das coisas que carrego dentro",
+        albumId: 1,
+        time: "3:50"
     }
 ]
