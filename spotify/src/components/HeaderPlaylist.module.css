@@ -146,3 +146,8 @@
 .barra svg {
     font-size: 1.2em;
 }
+
+/* CUSTOMCLASS */
+.playlist {
+    display: none;
+}

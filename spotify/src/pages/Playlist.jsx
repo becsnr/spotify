@@ -1,3 +1,5 @@
+import icon from '../../public/icon.jpg'
+
 import { useParams } from "react-router-dom"
 
 import HeaderPlaylist from "../components/HeaderPlaylist"
@@ -22,6 +24,9 @@ function Playlist() {
                 imgCapa={playlist.imgCard}
                 titulo={playlist.name}
                 subtitulo="Playlist"
+                imgArtista={icon}
+                descricao="beca"
+                customClass="playlist"
             />
 
             <Musicas item={musicasPlaylist} />

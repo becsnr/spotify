@@ -6,7 +6,7 @@ import { FaPlay, FaRandom, FaPlus, FaArrowDown, FaRegClock } from "react-icons/f
 
 import styles from './HeaderPlaylist.module.css'
 
-function HeaderPlaylist({ imgCapa, titulo, subtitulo, descricao, imgArtista, ano, totalMscs }) {
+function HeaderPlaylist({ imgCapa, titulo, subtitulo, descricao, imgArtista, ano, totalMscs, customClass }) {
     // pra mudar cor do random
     const [ativo, setAtivo] = useState(false)
 
@@ -37,7 +37,7 @@ function HeaderPlaylist({ imgCapa, titulo, subtitulo, descricao, imgArtista, ano
                     <div className={styles.artista}>
                         <img src={imgArtista} className={styles.imgArtista} />
                         <p className={styles.descricao}>{descricao}</p>
-                        <p className={styles.dados}>• {ano} • {totalMscs} músicas</p>
+                        <p className={`${styles.dados} ${styles[customClass]}`}>• {ano} • {totalMscs} músicas</p>
                     </div>
                 </div>
             </div>
