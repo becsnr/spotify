@@ -1,4 +1,5 @@
 import josejr from "../assets/albuns/josejr-album.jpg"
+import josePerfil from "../assets/artistas/josejr-card.jpg"
 
 import getz from "../assets/albuns/getz-album.jpg"
 
@@ -15,36 +16,42 @@ export const albums = [
         id: 1,
         name: "das coisas que carrego dentro",
         imgCard: josejr,
-        artista: "Jose Jr"
+        artista: "Jose Jr",
+        imgPerfil: josePerfil
     },
     {
         id: 2,
         name: "Getz/Gilberto (Expanded Edition)",
         imgCard: getz,
-        artista: "Stan Getz & João Gilberto"
+        artista: "Stan Getz & João Gilberto",
+        // imgPerfil: 
     },
     {
         id: 3,
         name: "Meia Noite (Ao Vivo)",
         imgCard: fhopeCapa,
-        artista: "FHOPE"
+        artista: "FHOPE",
+        // imgPerfil: 
     },
     {
         id: 4,
         name: "Post Tenebras Lux",
         imgCard: kami,
-        artista: "Kami Kam"
+        artista: "Kami Kam",
+        // imgPerfil: 
     },
     {
         id: 5,
         name: "Uma Só Voz - Vol. 01 (Ao Vivo)",
         imgCard: morada,
-        artista: "Morada"
+        artista: "Morada",
+        // imgPerfil: 
     },
     {
         id: 6,
         name: "Only",
         imgCard: only,
-        artista: "Leehi"
+        artista: "Leehi",
+        // imgPerfil: 
     }
 ]

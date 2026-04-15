@@ -6,7 +6,7 @@ import { FaPlay, FaRandom, FaPlus, FaArrowDown } from "react-icons/fa";
 
 import styles from './HeaderPlaylist.module.css'
 
-function HeaderPlaylist({ imagem, titulo, subtitulo, descricao }) {
+function HeaderPlaylist({ imgCapa, titulo, subtitulo, descricao, imgArtista }) {
     // pra mudar cor do random
     const [ativo, setAtivo] = useState(false)
 
@@ -14,9 +14,9 @@ function HeaderPlaylist({ imagem, titulo, subtitulo, descricao }) {
     const [color, setColor] = useState("#000")
 
     useEffect( () => {
-        if (!imagem) return
+        if (!imgCapa) return
 
-        Vibrant.from(imagem).getPalette().then(palette => {
+        Vibrant.from(imgCapa).getPalette().then(palette => {
             const cor = palette.Vibrant?.hex || palette.DarkVibrant?.hex || "#121212"
             setColor(cor)
         })
@@ -24,17 +24,20 @@ function HeaderPlaylist({ imagem, titulo, subtitulo, descricao }) {
             console.log("Erro Vibrant: ", err)
             setColor("#121212")
         })
-    }, [imagem])
+    }, [imgCapa])
 
     return (
         <>
             <div className={styles.header} style={{background:`linear-gradient(${color}, #121212)`}}>
-                <img src={imagem} className={styles.capa} />
+                <img src={imgCapa} className={styles.capa} />
 
                 <div className={styles.info}>
                     <p className={styles.subtitulo}>{subtitulo}</p>
                     <h1 className={styles.titulo}>{titulo}</h1>
-                    <p className={styles.descricao}>{descricao}</p>
+                    <div className={styles.artista}>
+                        <img src={imgArtista} className={styles.imgArtista} />
+                        <p className={styles.descricao}>{descricao}</p>
+                    </div>
                 </div>
             </div>
             <div className={styles.btns}>
@@ -51,8 +54,6 @@ function HeaderPlaylist({ imagem, titulo, subtitulo, descricao }) {
                     <FaArrowDown />
                 </div>
             </div>
-
-            <h1>TESTE</h1>
         </>
     )
 }

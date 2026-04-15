@@ -2,16 +2,30 @@
     display: flex;
     align-items: center;
     gap: 15px;
+    height: 50px;
     position: relative; /* pro play */
 }
 
-.mscs h2 {
-    font-size: 1em;
+.mscs:hover {
+    background-color: #93929223;
+}
+
+.mscs:hover .num {
+    opacity: 0;
+}
+
+.mscs:hover .play {
+    opacity: 1;
+}
+
+.mscs:hover p {
+    color: #ffffff;
 }
 
 .num {
     width: 30px;
     text-align: right;
+    font-size: 1.1em;
     color: #b3b3b3;
     transition: opacity .2s;
 }
@@ -30,17 +44,25 @@
     padding-left: 20px;
 }
 
-/* HOVER */
-.mscs:hover {
-    background-color: #93929223;
+.info h2, .info p {
+    margin: 0;
 }
 
-.mscs:hover .num {
-    opacity: 0;
+.info h2 {
+    font-size: 1em;
+    font-weight: 500;
 }
 
-.mscs:hover .play {
-    opacity: 1;
+.info p {
+    width: fit-content;
+    font-size: .8em;
+    font-weight: bold;
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
+.info p:hover {
+    text-decoration: underline;
 }
 
 /* VER MAIS / VER MENOS */

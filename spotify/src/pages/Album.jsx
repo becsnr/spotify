@@ -1,5 +1,3 @@
-
-
 import { useParams } from "react-router-dom";
 
 import { albums } from "../data/albums";
@@ -10,30 +8,25 @@ import Musicas from "../components/Musicas";
 function Album() {
     const { id } = useParams();
 
-    const album = albums.find(a => a.id == Number(id));
+    const album = albums.find(a => a.id === Number(id));
 
     if (!album) {
         return <p>Álbum não encontrado</p>
     }
 
-    const musicasAlbum = musicas.filter(musica => musica.albumId == album.id)
+    const musicasAlbum = musicas.filter(musica => musica.albumId == Number(id))
 
     return (
         <div>
             <HeaderPlaylist 
-                imagem={album.imgCard}
+                imgCapa={album.imgCard}
                 titulo={album.name}
                 subtitulo="Álbum"
+                imgArtista={album.imgPerfil}
                 descricao={album.artista}
             />
 
-            <Musicas  />
-
-            {/* <div className={styles.mscs}>
-                {musicasAlbum.map(musica => (
-                    <p key={musica.id}>{musica.name}</p>
-                ))}
-            </div> */}
+            <Musicas item={musicasAlbum} />
         </div>
     )
 }
