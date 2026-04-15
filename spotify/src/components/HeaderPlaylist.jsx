@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react'
 import {Vibrant} from "node-vibrant/browser"
 
-import { FaPlay, FaRandom, FaPlus, FaArrowDown } from "react-icons/fa";
+import { FaPlay, FaRandom, FaPlus, FaArrowDown, FaRegClock } from "react-icons/fa";
 
 import styles from './HeaderPlaylist.module.css'
 
@@ -41,6 +41,7 @@ function HeaderPlaylist({ imgCapa, titulo, subtitulo, descricao, imgArtista, ano
                     </div>
                 </div>
             </div>
+
             <div className={styles.btns}>
                 <button className={styles.play}>
                     <FaPlay />
@@ -54,6 +55,12 @@ function HeaderPlaylist({ imgCapa, titulo, subtitulo, descricao, imgArtista, ano
                 <div className={styles.circle}>
                     <FaArrowDown />
                 </div>
+            </div>
+
+            <div className={styles.barra}>
+                <span>#</span>
+                <span>Título</span>
+                <span><FaRegClock /></span>
             </div>
         </>
     )

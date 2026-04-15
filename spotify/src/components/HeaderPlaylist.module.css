@@ -127,3 +127,22 @@
     border-color: #d6cdcd;
     fill: #d6cdcd;
 }
+
+.barra {
+    display: grid;
+    grid-template-columns: 35px 1fr 100px;
+    align-items: center;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #b3b3b351;
+}
+
+.barra span {
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.barra svg {
+    font-size: 1.2em;
+}
