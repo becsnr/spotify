@@ -24,6 +24,8 @@ function Album() {
                 subtitulo="Álbum"
                 imgArtista={album.imgPerfil}
                 descricao={album.artista}
+                ano={album.ano}
+                totalMscs={musicasAlbum.length}
             />
 
             <Musicas item={musicasAlbum} />
