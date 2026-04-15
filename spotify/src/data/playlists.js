@@ -14,8 +14,8 @@ export const playlists = [
     {
         id: 1,
         name: "jazzzz i bossaaaa",
-        imgCard: jazz
-        // mscs: [] add os ids das msc
+        imgCard: jazz,
+        songs: [73, 126, 127, 128, 129, 130, 131, 132, 133, 134]
     },
     {
         id: 2,

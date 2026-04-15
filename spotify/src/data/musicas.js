@@ -1072,5 +1072,86 @@ export const musicas = [
         album: "4 Only",
         albumId: 6,
         time: "4:00"
+    },
+    {
+        id: 126,
+        name: "At Last",
+        cantor: "Etta James",
+        artistaId: 13,
+        album: "At Last!",
+        albumId: 7,
+        time: "3:00"
+    },
+    {
+        id: 127,
+        name: "Fly Me To The Moon",
+        cantor: "Frank Sinatra",
+        artistaId: 14,
+        album: "Ultimate Sinatra",
+        albumId: 7,
+        time: "2:27"
+    },
+    {
+        id: 128,
+        name: "Blue Moon",
+        cantor: "Dean Martin",
+        artistaId: 15,
+        album: "The Reprise Years",
+        albumId: 7,
+        time: "3:05"
+    },
+    {
+        id: 129,
+        name: "Wave",
+        cantor: "Tom Jobim",
+        artistaId: 16,
+        album: "Bossa Nova",
+        albumId: 7,
+        time: "3:22"
+    },
+    {
+        id: 130,
+        name: "Onde Anda Você",
+        cantor: "Toquinho",
+        artistaId: 17,
+        album: "20 Grandes Sucesssos",
+        albumId: 7,
+        time: "2:47"
+    },
+    {
+        id: 131,
+        name: "It's Beginning to Look a Lot like Christmas",
+        cantor: "Michael Bublé",
+        artistaId: 18,
+        album: "Christmas (Deluxe Special Edition)",
+        albumId: 7,
+        time: "3:26"
+    },
+    {
+        id: 132,
+        name: "Manhattan Serenade",
+        cantor: "Tommy Dorsey",
+        artistaId: 19,
+        album: "The Incomparable Tommy Dorsey",
+        albumId: 7,
+        time: "3:36"
+    },
+    {
+        id: 133,
+        name: "Bossa Na Praia",
+        cantor: "Lisa Ono",
+        artistaId: 20,
+        album: "Brasil",
+        albumId: 7,
+        time: "3:05"
+    },
+    {
+        id: 134,
+        name: "My Girl",
+        cantor: "The Temptations",
+        artistaId: 21,
+        album: "The Temptations Sing Smokey",
+        albumId: 7,
+        time: "2:45"
     }
 ]

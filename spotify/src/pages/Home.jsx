@@ -14,7 +14,7 @@ function Home() {
             <Card item={albums} page="album" customClass="cardCapa" />
 
             <h1>Playlists</h1>
-            <Card item={playlists} customClass="cardCapa" />
+            <Card item={playlists} page="playlist" customClass="cardCapa" />
 
             <h1>O melhor de cada artista</h1>
             <Card item={thisIs} customClass="cardCapa" />
