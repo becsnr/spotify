@@ -1153,5 +1153,86 @@ export const musicas = [
         album: "The Temptations Sing Smokey",
         albumId: 7,
         time: "2:45"
+    },
+    {
+        id: 135,
+        name: "Atos 2",
+        cantor: "2metro",
+        artistaId: 22,
+        album: "Atos 2",
+        albumId: 8,
+        time: "4:53"
+    },
+    {
+        id: 136,
+        name: "Multiplicação",
+        cantor: "Nesk Only",
+        artistaId: 23,
+        album: "Multiplicação",
+        albumId: 8,
+        time: "2:43"
+    },
+    {
+        id: 137,
+        name: "Nunca Mais (Citação: Além Do Rio Azul)",
+        cantor: "Nesk Only",
+        artistaId: 23,
+        album: "DU NADA - PARTE 1",
+        albumId: 8,
+        time: "3:30"
+    },
+    {
+        id: 138,
+        name: "YESHUA",
+        cantor: "Silas Magalhães",
+        artistaId: 24,
+        album: "YESHUA",
+        albumId: 8,
+        time: "2:41"
+    },
+    {
+        id: 139,
+        name: "Abençoado",
+        cantor: "Tutuzin",
+        artistaId: 25,
+        album: "Abençoado",
+        albumId: 8,
+        time: "3:11"
+    },
+    {
+        id: 140,
+        name: "Aff",
+        cantor: "VICTIN",
+        artistaId: 26,
+        album: "Jesus Invadiu a Cena",
+        albumId: 8,
+        time: "3:27"
+    },
+    {
+        id: 141,
+        name: "CRISTO FAZ A WAVE",
+        cantor: "Boanerges",
+        artistaId: 27,
+        album: "CRISTO FAZ A WAVE",
+        albumId: 8,
+        time: "3:00"
+    },
+    {
+        id: 142,
+        name: "Ele Faz",
+        cantor: "Robert Lucas",
+        artistaId: 28,
+        album: "Ele Faz",
+        albumId: 8,
+        time: "3:40"
+    },
+    {
+        id: 143,
+        name: "Não Mais Escravo",
+        cantor: "Silas Magalhães",
+        artistaId: 24,
+        album: "Não Mais Escravo",
+        albumId: 8,
+        time: "2:02"
     }
 ]

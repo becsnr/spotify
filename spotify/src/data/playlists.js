@@ -20,32 +20,32 @@ export const playlists = [
     {
         id: 2,
         name: "jesus invadiu a cena",
-        imgCard: jesus
-        // mscs: [] add os ids das msc
+        imgCard: jesus,
+        songs: [93, 135, 136, 137, 138, 139, 140, 141, 142, 143] 
     },
     {
         id: 3,
         name: "wave to earth - relax vibes",
-        imgCard: relax
-        // mscs: [] add os ids das msc
+        imgCard: relax,
+        songs: [] 
     },
     {
         id: 4,
         name: "YHWH",
-        imgCard: yhwh
-        // mscs: [] add os ids das msc
+        imgCard: yhwh,
+        songs: [] 
     },
     {
         id: 5,
         name: "black and white world",
-        imgCard: vintage
-        // mscs: [] add os ids das msc
+        imgCard: vintage,
+        songs: [] 
     },
     {
         id: 6,
         name: "kpop",
-        imgCard: kpop
-        // mscs: [] add os ids das msc
+        imgCard: kpop,
+        songs: [] 
     }
 ]
 
