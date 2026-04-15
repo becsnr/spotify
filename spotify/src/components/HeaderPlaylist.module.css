@@ -130,7 +130,7 @@
 
 .barra {
     display: grid;
-    grid-template-columns: 35px 1fr 100px;
+    grid-template-columns: 40px 1fr 60px;
     align-items: center;
     padding-left: 25px;
     padding-bottom: 5px;

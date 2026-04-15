@@ -19,9 +19,12 @@ function Musicas( { item, customClass, tipo } ) {
                         <span className={styles.play}>
                             <FaPlay />
                         </span>
-                        <div className={styles.info}>
+                        <div className={styles.dados}>
                             <h2>{musica.name}</h2>
                             <p>{musica.cantor}</p>
+                        </div>
+                        <div className={styles.time}>
+                            <p>{musica.time}</p>
                         </div>
                     </div>
                 ))}
