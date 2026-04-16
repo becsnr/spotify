@@ -2,7 +2,7 @@ import jazz from "../assets/playlist-capa/jazz.jpg"
 
 import jesus from "../assets/playlist-capa/jesus.jpg"
 
-import relax from "../assets/playlist-capa/relax.jpg"
+import jc from "../assets/playlist-capa/jc.jpg"
 
 import yhwh from "../assets/playlist-capa/yhwh.jpg"
 
@@ -15,37 +15,37 @@ export const playlists = [
         id: 1,
         name: "jazzzz i bossaaaa",
         imgCard: jazz,
-        songs: [73, 126, 127, 128, 129, 130, 131, 132, 133, 134]
+        songs: [73, 127, 128, 129, 130, 131, 132, 133, 134, 135]
     },
     {
         id: 2,
         name: "jesus invadiu a cena",
         imgCard: jesus,
-        songs: [93, 135, 136, 137, 138, 139, 140, 141, 142, 143] 
+        songs: [93, 136, 137, 138, 139, 140, 141, 142, 143, 144] 
     },
     {
         id: 3,
-        name: "wave to earth - relax vibes",
-        imgCard: relax,
-        songs: [] 
+        name: "JC",
+        imgCard: jc,
+        songs: [145, 146, 147, 148, 149, 150, 151, 152, 153, 154] 
     },
     {
         id: 4,
         name: "YHWH",
         imgCard: yhwh,
-        songs: [] 
+        songs: [114, 155, 156, 157, 158, 159, 160, 161, 162, 163] 
     },
     {
         id: 5,
         name: "black and white world",
         imgCard: vintage,
-        songs: [] 
+        songs: [164, 165, 166, 167, 168, 169, 170, 171, 172, 173] 
     },
     {
         id: 6,
         name: "kpop",
         imgCard: kpop,
-        songs: [] 
+        songs: [3, 25, 51, 174, 175, 176, 177, 178, 179, 180] 
     }
 ]
 
