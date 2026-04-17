@@ -6,8 +6,7 @@ import { artistas } from "../data/artistas";
 import { musicas } from "../data/musicas";
 
 import Musicas from "../components/Musicas";
-
-import { FaPlay, FaRandom } from "react-icons/fa";
+import Play from "../components/Play";
 
 function Artista() {
     const { id } = useParams();
@@ -22,16 +21,8 @@ function Artista() {
                 <h1>{artista.name}</h1>
                 <p>{artista.ouvintes} ouvintes mensais</p>
             </div>
-            
-            <div className={styles.btns}>
-                <button className={styles.play}>
-                    <FaPlay />
-                </button>
-                <div className={styles.random}>
-                    <FaRandom />
-                </div>
-                <button className={styles.follow}>Seguir</button>
-            </div>
+
+            <Play page="artista" />
 
             <h2 className={styles.titulo}>Populares</h2>
             <div className={styles.musics}>

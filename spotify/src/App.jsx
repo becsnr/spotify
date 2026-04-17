@@ -5,6 +5,7 @@ import Home from "./pages/Home"
 import Artista from "./pages/Artista"
 import Playlist from "./pages/Playlist"
 import Album from "./pages/Album"
+import ThisIs from "./pages/ThisIs"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
             <Route path="/artista/:id" element={<Artista />} />
             <Route path="/album/:id" element={<Album />} />
             <Route path="/playlist/:id" element={<Playlist />} />
+            <Route path="/thisis/:id" element={<ThisIs />} />
           </Route>
         </Routes>
       </BrowserRouter>

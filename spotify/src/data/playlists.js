@@ -46,10 +46,11 @@ export const playlists = [
         name: "kpop",
         imgCard: kpop,
         songs: [3, 25, 51, 174, 175, 176, 177, 178, 179, 180] 
-    }
+    },
+    
 ]
 
-import isBts from "../assets/playlist-capa/is-bts.png"
+import isEnhy from "../assets/playlist-capa/is-enhypen.jpg"
 
 import is2metro from "../assets/playlist-capa/is-2metro.png"
 
@@ -64,8 +65,8 @@ import isJk from "../assets/playlist-capa/is-jk.png"
 export const thisIs = [
     {
         id: 1,
-        name: "This is BTS",
-        imgCard: isBts
+        name: "This is Enhypen",
+        imgCard: isEnhy
     },
     {
         id: 2,

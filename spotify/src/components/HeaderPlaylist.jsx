@@ -1,14 +1,13 @@
 // PLAYLIST E ALBUM
 import { useEffect, useState } from 'react'
 import {Vibrant} from "node-vibrant/browser"
+import Play from './Play';
 
-import { FaPlay, FaRandom, FaPlus, FaArrowDown, FaRegClock } from "react-icons/fa";
+import { FaRegClock } from "react-icons/fa";
 
 import styles from './HeaderPlaylist.module.css'
 
 function HeaderPlaylist({ imgCapa, titulo, subtitulo, descricao, imgArtista, ano, totalMscs, customClass }) {
-    // pra mudar cor do random
-    const [ativo, setAtivo] = useState(false)
 
     // pra pegar as cores das capas
     const [color, setColor] = useState("#000")
@@ -42,20 +41,7 @@ function HeaderPlaylist({ imgCapa, titulo, subtitulo, descricao, imgArtista, ano
                 </div>
             </div>
 
-            <div className={styles.btns}>
-                <button className={styles.play}>
-                    <FaPlay />
-                </button>
-                <div className={`${styles.random} ${ativo && styles.ativo}`} onClick={() => setAtivo(!ativo)}>
-                    <FaRandom />
-                </div>
-                <div className={styles.circle}>
-                    <FaPlus />
-                </div>
-                <div className={styles.circle}>
-                    <FaArrowDown />
-                </div>
-            </div>
+            <Play page="playlist" />
 
             <div className={styles.barra}>
                 <span>#</span>

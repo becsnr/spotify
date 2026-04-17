@@ -17,7 +17,7 @@ function Home() {
             <Card item={playlists} page="playlist" customClass="cardCapa" />
 
             <h1>O melhor de cada artista</h1>
-            <Card item={thisIs} customClass="cardCapa" />
+            <Card item={thisIs} page="thisis" customClass="cardCapa" />
         </div>
         
     )

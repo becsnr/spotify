@@ -45,67 +45,6 @@
     text-shadow: 0 4px 20px black;
 }
 
-.btns {
-    display: flex;
-    gap: 15px;
-    padding: 10px;
-}
-
-.btns svg {
-    font-size: 1.3em;
-    font-weight: 100;
-}
-
-.play {
-    background-color: #3AE176;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
-}
-
-.play svg {
-    fill: black;
-    padding-left: 5px;
-    padding-top: 4px;
-}
-
-.play:hover, .play svg:hover {
-    background-color: #40f783;
-}
-
-.random {
-    height: 30px;
-    margin-top: 10px;
-}
-
-.random svg {
-    fill: #8b8686;
-    padding-top: 3px;
-    cursor: pointer;
-}
-
-.random svg:hover {
-    fill: #d6cdcd;
-}
-
-.follow {
-    border: 1px solid #ffffffa5;
-    border-radius: 50px;
-    width: 80px;
-    height: 30px;
-    margin-top: 10px;
-    background-color: transparent;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.follow:hover {
-    background-color: #8b86861b;
-}
-
 .titulo {
     font-size: 1.5em;
     padding-left: 10px;
