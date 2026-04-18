@@ -8,8 +8,6 @@ function Musicas( { item, customClass, tipo } ) {
 
     const musicasVisiveis = tipo === "artista" && !mostrarTudo ? item.slice(0, 5) : item
 
-    // const musicasVisiveis = Array.isArray(item) ? (tipo === "artista" && !mostrarTudo ? item.slice(0, 5) : item) : []
-
     return (
         <>
             <div className={styles.card}>

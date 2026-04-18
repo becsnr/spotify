@@ -1,13 +1,13 @@
-import HeaderPlaylist from "../components/HeaderPlaylist"
+import Header from "../components/Header";
 
-import Play from "../components/Play"
+import Play from "../components/Play";
 
 function ThisIs() {
-    return (
-        <>
-            <Play page="playlist" />
-        </>
-    )
+  return (
+    <>
+      <Play page="playlist" />
+    </>
+  );
 }
 
-export default ThisIs
+export default ThisIs;
