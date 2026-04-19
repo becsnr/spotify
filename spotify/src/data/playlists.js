@@ -51,46 +51,58 @@ export const playlists = [
 ]
 
 import isEnhy from "../assets/playlist-capa/is-enhypen.jpg"
+import enhypen from "../assets/artistas/enhy-capa.jpg"
 
 import is2metro from "../assets/playlist-capa/is-2metro.png"
+import metro from "../assets/artistas/2metro-capa.jpg"
 
 import isJb from "../assets/playlist-capa/is-jb.png"
+import jb from "../assets/artistas/jb-capa.jpg"
 
 import isNesk from "../assets/playlist-capa/is-nesk.png"
+import nesk from "../assets/artistas/nesk-capa.jpg"
 
 import isShawn from "../assets/playlist-capa/is-shawn.png"
+import shawn from "../assets/artistas/shawn-capa.jpg"
 
 import isJk from "../assets/playlist-capa/is-jk.png"
+import jk from "../assets/artistas/jk-capa.jpg"
 
 export const thisIs = [
     {
         id: 1,
         name: "This is Enhypen",
-        imgCard: isEnhy
+        imgCard: isEnhy,
+        imgPerfil: enhypen
     },
     {
         id: 2,
         name: "This is 2metro",
-        imgCard: is2metro
+        imgCard: is2metro,
+        imgPerfil: metro
     },
     {
         id: 3,
         name: "This is Justin Bieber",
-        imgCard: isJb
+        imgCard: isJb,
+        imgPerfil: jb
     },
     {
         id: 4,
         name: "This is Nesk Only",
-        imgCard: isNesk
+        imgCard: isNesk,
+        imgPerfil: nesk
     },
     {
         id: 5,
         name: "This is Shawn Mendes",
-        imgCard: isShawn
+        imgCard: isShawn,
+        imgPerfil: shawn
     },
     {
         id: 6,
         name: "This is Jungkook",
-        imgCard: isJk
+        imgCard: isJk,
+        imgPerfil: jk
     }
 ]

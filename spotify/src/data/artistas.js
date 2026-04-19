@@ -1,14 +1,14 @@
 import btsCard from "../assets/artistas/bts-card.jpg"
-import btsPerfil from "../assets/artistas/bts-perfil2.png"
+import btsPerfil from "../assets/artistas/bts-perfil.jpg"
 
 import taylorCard from "../assets/artistas/taylor-card.jpg"
-import taylorPerfil from "../assets/artistas/taylor-perfil.jpg"
+import taylorPerfil from "../assets/artistas/taylor-perfil2.jpg"
 
 import w2eCard from "../assets/artistas/w2e-card.jpg"
 import w2ePerfil from "../assets/artistas/w2e-perfil.jpg"
 
 import laufeyCard from "../assets/artistas/laufey-card.jpg"
-import laufeyPerfil from "../assets/artistas/laufey-perfil.jpg"
+import laufeyPerfil from "../assets/artistas/laufey-perfil.png"
 
 import stringsCard from "../assets/artistas/strings-card.jpg"
 import stringsPerfil from "../assets/artistas/strings-perfil.jpg"

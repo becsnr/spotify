@@ -11,6 +11,7 @@ function Header({ header, gradiente, imgCapa, titulo, subtitulo, descricao, imgA
 
     const isArtista = header === "headerArtista"
     const isAlbum = header === "headerAlbum"
+    const isThisIs = header === "headerThisIs"
 
     // pra pegar as cores das capas
     const [color, setColor] = useState("#000")
@@ -30,28 +31,37 @@ function Header({ header, gradiente, imgCapa, titulo, subtitulo, descricao, imgA
 
     return (
         <div className={styles[header]}>
+
             <div className={`${styles.header} ${styles[header]}`} 
             style={ isAlbum ? { background: `linear-gradient(${color}, #121212)` } : { background: "#121212"}}
             >
                 <img src={imgCapa} className={styles.capa} />
 
                 <div className={styles.info}>
-                    {/* SUBTITULO só aparece se NÃO for artista */}
+                    {/* subtitulo só aparece se NÃO for artista */}
                     {!isArtista && (
                         <p className={styles.subtitulo}>{subtitulo}</p>
                     )}
+
                     <h1 className={styles.titulo}>{titulo}</h1>
+
                     {isArtista ? (
                         <p className={styles.ouvintes}>
                         {descricao}
                         </p>
                     ) : (
                         <div className={styles.artista}>
-                        <img src={imgArtista} className={styles.imgArtista} />
+                            {!isThisIs && (
+                                <img src={imgArtista} className={styles.imgArtista} />
+                            )}
+
                         <p className={styles.descricao}>{descricao}</p>
-                        <p className={`${styles.dados} ${styles[customClass]}`}>
+                        {!isThisIs && (
+                            <p className={`${styles.dados} ${styles[customClass]}`}>
                             • {ano} • {totalMscs} músicas
-                        </p>
+                            </p>
+                        )}
+                        
                         </div>
                     )}
                 </div>
