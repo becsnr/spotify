@@ -1,17 +1,23 @@
 import styles from './Navbar.module.css'
 
+import { Link } from 'react-router-dom'
+
 import { FaSpotify, FaHome, FaSearch, FaBell } from "react-icons/fa"
 
 function Navbar() {
     return (
         <nav>
             <div className={styles.logo}>
-                <FaSpotify />
+                <Link to="/">
+                    <FaSpotify />
+                </Link>
             </div>
 
             <div className={styles.center}>
                 <div className={styles.home}>
-                    <FaHome />
+                    <Link to="/">
+                        <FaHome />
+                    </Link>
                 </div>
                 <div className={styles.search}>
                     <FaSearch />
