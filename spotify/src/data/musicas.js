@@ -1742,5 +1742,509 @@ export const musicas = [
         album: "Back To Me / Alive", 
         albumId: 12, 
         time: "3:45" 
+    },
+    {
+        id: 181, 
+        name: "Chaconne", 
+        cantor: "ENHYPEN", 
+        artistaId: 55, 
+        album: "DARK BLOOD", 
+        albumId: 13, 
+        time: "3:33" 
+    },
+    {
+        id: 182, 
+        name: "Karma", 
+        cantor: "ENHYPEN", 
+        artistaId: 55, 
+        album: "DARK BLOOD", 
+        albumId: 13, 
+        time: "3:12" 
+    },
+    {
+        id: 183, 
+        name: "FEVER", 
+        cantor: "ENHYPEN", 
+        artistaId: 55, 
+        album: "BORDER: CARNIVAL", 
+        albumId: 13, 
+        time: "2:52" 
+    },
+    {
+        id: 184, 
+        name: "10 Months", 
+        cantor: "ENHYPEN", 
+        artistaId: 55, 
+        album: "BORDER: DAY ONE", 
+        albumId: 13, 
+        time: "3:14" 
+    },
+    {
+        id: 185, 
+        name: "Attention, please!", 
+        cantor: "ENHYPEN", 
+        artistaId: 55, 
+        album: "DIMENSION: DILEMMA", 
+        albumId: 13, 
+        time: "2:48" 
+    },
+    {
+        id: 186, 
+        name: "ParadoXXX Invasion", 
+        cantor: "ENHYPEN", 
+        artistaId: 55, 
+        album: "MANIFESTO: DAY 1", 
+        albumId: 13, 
+        time: "3:07" 
+    },
+    {
+        id: 187, 
+        name: "Blessed-Cursed", 
+        cantor: "ENHYPEN", 
+        artistaId: 55, 
+        album: "DIMENSION: ANSWER", 
+        albumId: 13, 
+        time: "2:51" 
+    },
+    {
+        id: 188, 
+        name: "Polaroid Love", 
+        cantor: "ENHYPEN", 
+        artistaId: 55, 
+        album: "DIMENSION: ANSWER", 
+        albumId: 13, 
+        time: "3:05" 
+    },
+    {
+        id: 189, 
+        name: "Flicker", 
+        cantor: "ENHYPEN", 
+        artistaId: 55, 
+        album: "BORDER: DAY ONE", 
+        albumId: 13, 
+        time: "2:24" 
+    },
+    {
+        id: 190, 
+        name: "Efésios 6", 
+        cantor: "2metro", 
+        artistaId: 22, 
+        album: "Efésios 6", 
+        albumId: 14, 
+        time: "3:09" 
+    },
+    {
+        id: 191, 
+        name: "Chuvas de Deus", 
+        cantor: "2metro", 
+        artistaId: 22, 
+        album: "Chuvas de Deus", 
+        albumId: 14, 
+        time: "4:15" 
+    },
+    {
+        id: 192, 
+        name: "Amor de Deus", 
+        cantor: "2metro", 
+        artistaId: 22, 
+        album: "Amor de Deus", 
+        albumId: 14, 
+        time: "4:05" 
+    },
+    {
+        id: 193, 
+        name: "Rei Davi", 
+        cantor: "2metro", 
+        artistaId: 22, 
+        album: "Rei Davi", 
+        albumId: 14, 
+        time: "2:24" 
+    },
+    {
+        id: 194, 
+        name: "Bartimeu", 
+        cantor: "2metro", 
+        artistaId: 22, 
+        album: "Bartimeu", 
+        albumId: 14, 
+        time: "2:58" 
+    },
+    {
+        id: 195, 
+        name: "Hosana", 
+        cantor: "2metro", 
+        artistaId: 22, 
+        album: "Hosana", 
+        albumId: 14, 
+        time: "4:05" 
+    },
+    {
+        id: 196, 
+        name: "Guardado", 
+        cantor: "2metro", 
+        artistaId: 22, 
+        album: "Guardado", 
+        albumId: 14, 
+        time: "3:42" 
+    },
+    {
+        id: 197, 
+        name: "Cristo E Mais Nada", 
+        cantor: "2metro", 
+        artistaId: 22, 
+        album: "Cristo E Mais Nada", 
+        albumId: 14, 
+        time: "4:51" 
+    },
+    {
+        id: 198, 
+        name: "Josué", 
+        cantor: "2metro", 
+        artistaId: 22, 
+        album: "Josué", 
+        albumId: 14, 
+        time: "2:58" 
+    },
+    {
+        id: 199, 
+        name: "Sorry", 
+        cantor: "Justin Bieber", 
+        artistaId: 60, 
+        album: "Purpose (Deluxe)", 
+        albumId: 15, 
+        time: "3:21" 
+    },
+    {
+        id: 200, 
+        name: "Baby", 
+        cantor: "Justin Bieber", 
+        artistaId: 60, 
+        album: "My World 2.0", 
+        albumId: 15, 
+        time: "3:34" 
+    },
+    {
+        id: 201, 
+        name: "Company", 
+        cantor: "Justin Bieber", 
+        artistaId: 60, 
+        album: "Purpose (Deluxe)", 
+        albumId: 15, 
+        time: "3:28"
+    },
+    {
+        id: 202, 
+        name: "Never Say Never", 
+        cantor: "Justin Bieber", 
+        artistaId: 60, 
+        album: "Never Say Never - The Remixes", 
+        albumId: 15, 
+        time: "3:48"
+    },
+    {
+        id: 203, 
+        name: "What Do You Mean?", 
+        cantor: "Justin Bieber", 
+        artistaId: 60, 
+        album: "Purpose (Deluxe)", 
+        albumId: 15, 
+        time: "3:28"
+    },
+    {
+        id: 204, 
+        name: "Confident", 
+        cantor: "Justin Bieber", 
+        artistaId: 60, 
+        album: "Journals", 
+        albumId: 15, 
+        time: "4:08"
+    },
+    {
+        id: 205, 
+        name: "Love Me", 
+        cantor: "Justin Bieber", 
+        artistaId: 60, 
+        album: "My World", 
+        albumId: 15, 
+        time: "3:36"
+    },
+    {
+        id: 206, 
+        name: "One Time", 
+        cantor: "Justin Bieber", 
+        artistaId: 60, 
+        album: "My World", 
+        albumId: 15, 
+        time: "3:36"
+    },
+    {
+        id: 207, 
+        name: "Peaches", 
+        cantor: "Justin Bieber", 
+        artistaId: 60, 
+        album: "Justice", 
+        albumId: 15, 
+        time: "3:18"
+    },
+    {
+        id: 208, 
+        name: "Where Are Ü Now", 
+        cantor: "Justin Bieber", 
+        artistaId: 60, 
+        album: "Skrillex and Diplo present Jack Ü", 
+        albumId: 15, 
+        time: "4:10"
+    },
+    {
+        id: 209, 
+        name: "Limitado", 
+        cantor: "Nesk Only", 
+        artistaId: 23, 
+        album: "Limitado", 
+        albumId: 16, 
+        time: "3:04" 
+    },
+    {
+        id: 210, 
+        name: "Ah Teu (Sample: Naquela Mesa)", 
+        cantor: "Nesk Only", 
+        artistaId: 23, 
+        album: "Ah Teu (Sample: Naquela Mesa)", 
+        albumId: 16, 
+        time: "2:45" 
+    },
+    {
+        id: 211, 
+        name: "Pela Manhã", 
+        cantor: "Nesk Only", 
+        artistaId: 23, 
+        album: "Pela Manhã", 
+        albumId: 16, 
+        time: "2:13" 
+    },
+    {
+        id: 212, 
+        name: "Hebreus 12", 
+        cantor: "Nesk Only", 
+        artistaId: 23, 
+        album: "DU NADA - PARTE 1", 
+        albumId: 16, 
+        time: "2:41" 
+    },
+    {
+        id: 213, 
+        name: "Provérbios 3", 
+        cantor: "Nesk Only", 
+        artistaId: 23, 
+        album: "Provérbios 3", 
+        albumId: 16, 
+        time: "3:24" 
+    },
+    {
+        id: 214, 
+        name: "Inabalável", 
+        cantor: "Nesk Only", 
+        artistaId: 23, 
+        album: "Inabalável", 
+        albumId: 16, 
+        time: "2:43" 
+    },
+    {
+        id: 215, 
+        name: "Mucho Mais", 
+        cantor: "Nesk Only", 
+        artistaId: 23, 
+        album: "Mucho Mais", 
+        albumId: 16, 
+        time: "2:45" 
+    },
+    {
+        id: 216, 
+        name: "Contramão", 
+        cantor: "Nesk Only", 
+        artistaId: 23, 
+        album: "Contramão", 
+        albumId: 16, 
+        time: "2:38" 
+    },
+    {
+        id: 217, 
+        name: "There's Nothing Holdin'Me Back", 
+        cantor: "Shawn Mendes", 
+        artistaId: 61, 
+        album: "Illuminate", 
+        albumId: 17, 
+        time: "3:19" 
+    },
+    {
+        id: 218, 
+        name: "Treat You Better", 
+        cantor: "Shawn Mendes", 
+        artistaId: 61, 
+        album: "Illuminate", 
+        albumId: 17, 
+        time: "3:08" 
+    },
+    {
+        id: 219, 
+        name: "Stiches", 
+        cantor: "Shawn Mendes", 
+        artistaId: 61, 
+        album: "Handwritten", 
+        albumId: 17, 
+        time: "3:27" 
+    },
+    {
+        id: 220, 
+        name: "Mercy", 
+        cantor: "Shawn Mendes", 
+        artistaId: 61, 
+        album: "Illuminate", 
+        albumId: 17, 
+        time: "3:29" 
+    },
+    {
+        id: 221, 
+        name: "In My Blood", 
+        cantor: "Shawn Mendes", 
+        artistaId: 61, 
+        album: "Shawn Mendes", 
+        albumId: 17, 
+        time: "3:31" 
+    },
+    {
+        id: 222, 
+        name: "Fallin'All In You", 
+        cantor: "Shawn Mendes", 
+        artistaId: 61, 
+        album: "Shawn Mendes", 
+        albumId: 17, 
+        time: "3:56" 
+    },
+    {
+        id: 223, 
+        name: "If I Can't Have You", 
+        cantor: "Shawn Mendes", 
+        artistaId: 61, 
+        album: "Shawn Mendes", 
+        albumId: 17, 
+        time: "3:11" 
+    },
+    {
+        id: 224, 
+        name: "Never Be Alone", 
+        cantor: "Shawn Mendes", 
+        artistaId: 61, 
+        album: "Handwritte", 
+        albumId: 17, 
+        time: "3:35" 
+    },
+    {
+        id: 225, 
+        name: "Nervous", 
+        cantor: "Shawn Mendes", 
+        artistaId: 61, 
+        album: "Shawn Mendes", 
+        albumId: 17, 
+        time: "2:44" 
+    },
+    {
+        id: 226, 
+        name: "When You're Ready", 
+        cantor: "Shawn Mendes", 
+        artistaId: 61, 
+        album: "Shawn Mendes", 
+        albumId: 17, 
+        time: "2:49" 
+    },
+    {
+        id: 227, 
+        name: "Standing Next to You", 
+        cantor: "Jungkook", 
+        artistaId: 62, 
+        album: "GOLDEN", 
+        albumId: 18, 
+        time: "3:26" 
+    },
+    {
+        id: 228, 
+        name: "3D", 
+        cantor: "Jungkook", 
+        artistaId: 62, 
+        album: "GOLDEN", 
+        albumId: 18, 
+        time: "3:22" 
+    },
+    {
+        id: 229, 
+        name: "Closer to You", 
+        cantor: "Jungkook", 
+        artistaId: 62, 
+        album: "GOLDEN", 
+        albumId: 18, 
+        time: "2:51" 
+    },
+    {
+        id: 230, 
+        name: "Yes or No", 
+        cantor: "Jungkook", 
+        artistaId: 62, 
+        album: "GOLDEN", 
+        albumId: 18, 
+        time: "2:28" 
+    },
+    {
+        id: 231, 
+        name: "Please Don't Change", 
+        cantor: "Jungkook", 
+        artistaId: 62, 
+        album: "GOLDEN", 
+        albumId: 18, 
+        time: "2:27" 
+    },
+    {
+        id: 232, 
+        name: "Too Sad to Dance", 
+        cantor: "Jungkook", 
+        artistaId: 62, 
+        album: "GOLDEN", 
+        albumId: 18, 
+        time: "2:56" 
+    },
+    {
+        id: 233, 
+        name: "Still With You", 
+        cantor: "Jungkook", 
+        artistaId: 62, 
+        album: "Still With You", 
+        albumId: 18, 
+        time: "4:00" 
+    },
+    {
+        id: 234, 
+        name: "My Time", 
+        cantor: "Jungkook", 
+        artistaId: 62, 
+        album: "MAP OF THE SOUL: 7", 
+        albumId: 18, 
+        time: "3:54" 
+    },
+    {
+        id: 235, 
+        name: "Euphoria", 
+        cantor: "Jungkook", 
+        artistaId: 62, 
+        album: "Love Yourself 'Answer'", 
+        albumId: 18, 
+        time: "3:49" 
+    },
+    {
+        id: 236, 
+        name: "Hate You", 
+        cantor: "Jungkook", 
+        artistaId: 62, 
+        album: "GOLDEN", 
+        albumId: 18, 
+        time: "2:34" 
     }
 ]
